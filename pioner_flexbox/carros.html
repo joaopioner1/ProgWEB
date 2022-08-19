@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox catalogue</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            body {
+                width: 70%;
+                max-width: 960px;
+                margin: 20px auto;
+                background-color: #5BE3E3;
+                color: BLACK;
+            }
+            button {
+                font-size: 10px;
+                line-height: 1.5;
+                width: 15%;
+            }
+            article {
+                text-align: center;
+                border: 8px solid #FF1F3D;
+                margin: 2px;
+                flex: 1;
+            }
+            img {
+                width: 200px;
+                height: 130px;
+            }
+            #lista {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                flex: 1;
+            }
+            #titulo-div {
+                align-items: center;
+                display: flex;
+            }
+            #titulo {
+                flex: 1;
+                text-decoration: underline #FF1F3D;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="titulo-div"><h1 id="titulo">Catálogo Carros Populares:</h1></div>
+        <section id="lista">
+            <article><img src="img/Gol-2022-1-1536x864-1-e1648148377582.jpg" alt=""><br>GOL</article>
+            <article><img src="img/uno.png" alt=""><br>UNO</article>
+            <article><img src="img/clio.jpg" alt=""><br>CLIO</article>
+            <article><img src="img/fordka.jpg" alt=""><br> FORD KA</article>
+            <article><img src="img/celta.jpg" alt=""><br>CELTA</article>
+            <article><img src="img/corsa.jpg" alt=""><br>CORSA</article>
+        </section>
+        <section id="lista">
+            <button>CLIQUE AQUI PARA COMPRAR</button>
+        </section>
+    </body>
+</html>
