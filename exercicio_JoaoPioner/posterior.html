@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <style>
+        #main {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            text-align: center;
+            font-size: 35px;
+            background-color: #036;
+            color: white;
+        }
+        #books {
+            align-items: center;
+            display: flex;
+        }
+        #lista {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+        #btn {
+            max-width: 70px;
+        }
+        button {
+            background-color: #036;
+            color: white;
+            border-color: white;
+        }
+        img {
+            width: 140px;
+            height: 200px;
+        }
+        article {
+            text-align: center;
+            margin: 2px;
+            flex: 1;
+        }
+        a {
+            color: black;
+        }
+        body {
+            background-color: rgba(166, 177, 67, 0.411);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main">Escolha seu livro</h1>
+    <div id="books">
+        <section id="lista">
+            <article><img src="img/cortico.jpg" alt="">
+            <a href="https://guiadoestudante.abril.com.br/estudo/o-cortico-resumo-da-obra-de-aluisio-de-azevedo/">
+                O Cortiço</a></article>
+            <article><img src="img/hp.jpg" alt="">
+            <a href="https://www.amazon.com.br/Harry-Potter-Pedra-Filosofal-Rowling/dp/8532530788">
+                Harry Potter</a></article>
+            <article><img src="img/capitaesDaAreia.jpg" alt="">
+            <a href="https://www.amazon.com.br/Capitães-areia-Jorge-Amado/dp/8535914064">
+                Capitães da Areia</a></article>
+        </section>
+    </div>
+    <section>
+        <article id="btn"><a href="livraria.html"><button>Clique aqui para voltar</button></a></article>
+    </section>
+
+</body>
+</html>

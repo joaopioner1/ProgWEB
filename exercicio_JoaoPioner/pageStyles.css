@@ -1,0 +1,51 @@
+body {
+    background-color: #B2DFEE;
+}
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+    background-color: #036;
+    color: white;
+}
+
+.geral {
+    width: 500px;
+    border: 20px;
+    text-align: center;
+}
+
+#rodape {
+    text-align: center;
+}
+
+p {
+    color: #999;
+    font-size: 12px
+}
+
+#conteudo {
+    height: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+.mainH1 {
+    font-size: 20px;
+    color: #036;
+    border: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    height: 50px;
+    border-style: solid;
+    border-color: #4169E1;
+    background-color:#98FB98;
+    text-decoration: none;
+    font-style: italic;
+}
+
